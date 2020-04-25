@@ -1,0 +1,213 @@
+﻿body {
+    background: #f8f8f8;
+    /*фон страницы*/
+}
+
+* {
+    box-sizing: border-box;
+    /*обращение ко всем элементам на странице : не учитываем паддинги и маргины
+    в расчете размеров блоков*/
+}
+
+ul[class="menu"] {
+    list-style-type: none;
+    /*убираем в списке меню точки*/
+}
+
+.heading {
+    background-color: #eaeaea;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    /*заголовки краткого описания товара*/
+}
+
+.short {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    /*краткое описание товара*/
+}
+
+.description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    /*подробное описание товара*/
+}
+
+.char {
+    /* маркированный cписок характеристик товаров */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    list-style-image: url(img/mark.png);
+    /* Путь к изображению маркера */
+}
+
+.menu li a {
+    /*стили ссылок в меню */
+    color: rgb(55, 0, 253);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-weight: bold;
+
+}
+
+.menu a:hover {
+    /*стили при наведении мышки на ссылку в меню */
+    color: rgb(3, 3, 3);
+    background-color: rgb(161, 175, 255);
+    transition: linear 0.6s;
+}
+
+
+input {
+    color: rgb(12, 12, 12);
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgb(194, 193, 193);
+    width: 220px;
+    height: 20px;
+    padding: 2px;
+    /* Поля вокруг текста */
+    transition: 0.5s linear;
+    /* Время изменения */
+    text-transform: capitalize;
+}
+
+input:hover {
+    color: rgb(55, 2, 247);
+    background: rgb(255, 255, 255);
+}
+
+.email:focus {
+    color: rgb(247, 0, 0);
+    background-color: rgb(225, 252, 249);
+
+}
+
+.gender {
+    width: 20px;
+
+}
+
+.border {
+    outline: 2px solid rgb(8, 8, 8);
+}
+
+.border:hover {
+    outline: none;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.text {
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+a,
+.text {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+/*изменение цвета картинок-ссылок в каталоге при наведении мышки*/
+.products a {
+    display: inline-block;
+    background: rgb(91, 91, 92);
+    line-height: 0;
+}
+
+.products a img {
+    width: 300px;
+    height: 130px;
+    transition: filter 0.5s linear;
+    filter: brightness(2) grayscale(1) opacity(0.5);
+}
+
+.products a:hover img {
+    filter: none;
+}
+
+/*изменение цвета картинок-ссылок в каталоге при наведении мышки*/
+
+table {
+    border: 1.5px solid #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    width: 500px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.CZ750table {
+    width: 700px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid #000;
+}
+
+td:nth-child(odd) {
+    font-weight: bold;
+}
+
+.tovar p:first-letter {
+    color: rgb(94, 94, 94);
+    font-family: fantasy;
+    /*в боди с классом товар все первые буквы абзацев другие*/
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    height: 70px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    margin-top: 5px;
+}
+
+.main-menu {
+    position: absolute;
+    left: 30%;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+
+.search {
+    float: right;
+}
+
+.footer {
+    height: 65px;
+    background-color: rgb(209, 209, 209);
+    margin: 0 auto;
+    display: inline;
+}
