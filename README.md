@@ -1,2 +1,2 @@
-# Geekbrains
-Online lessons
+# Artyom Petukhov
+Geekbrains online lessons
