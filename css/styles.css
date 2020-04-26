@@ -195,7 +195,7 @@ footer p {
 
 header {
     height: 120px;
-    background-image: url(/img/fon2.jpg);
+    background-image: url(../img/fon2.jpg);
 }
 
 .headername {
