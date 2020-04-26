@@ -5,35 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
+    <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="header">
-        <p class="logo"><img class="logo" src="img/logo.jpg" alt="logo"></p>
-        <ul class="menu">
-            <li><a class="main" href="index.html">Main</a></li>
-            <li><a class="main" href="catalog.html">Products</a></li>
-            <li><a class="main" href="contacts.html">Contacts</a></li>
-        </ul>
-    </div>
-    <hr>
+
+    <header>
+        <div class="container">
+            <a href="index.html"><img class="logo" src="img/logo.jpg" alt="logo"></a>
+            <h1 class="headername">TOPGUNS</h1>
+            <nav>
+                <ul>
+                    <li><a class="main" href="index.html">Main</a></li>
+                    <li><a class="main" href="catalog.html">Products</a></li>
+                    <li><a class="main" href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
     <div class="content">
-        <h2>Registration</h2>
-        <form class="text" action="#">
-            Name <input type="text" placeholder="Enter your name"><br>
-            Email adress <input type="text" placeholder="Enter your email"><br>
-            Password <input type="password" placeholder="Enter your password"><br>
-            Gender M <input class=gender type="radio" name="gender" checked>
-            W <input class=gender type="radio" name="gender"><br>
-            <input type="submit" value="Submit form"> <input type="reset" value="Reset">
-        </form>
+        <div class="container">
+            <h1>Registration</h2>
+            <form class="text" action="#">
+                <input type="text" placeholder="Enter your name"><br>
+                <input type="text" placeholder="Enter your email"><br>
+                <input type="password" placeholder="Enter your password"><br>
+                Gender M <input class=gender type="radio" name="gender" checked>
+                W <input class=gender type="radio" name="gender"><br>
+                <input class="submit" type="submit" value="Submit form"> <input class="submit" type="reset" value="Reset">
+            </form>
+        </div>
     </div>
-    <div class="footer">
-        <hr>
-        <h6>TOPGUNS is&nbsp;the gun shop for all your shooting needs.<br>
-            &copy;&nbsp;2020&nbsp;TOPGUNS All Rights Reserved.</h6>
-    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy;&nbsp;2020&nbsp;Topguns All rights reserved</p>
+        </div>
+    </footer>
 </body>
 
 </html>
