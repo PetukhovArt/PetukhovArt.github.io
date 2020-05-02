@@ -78,8 +78,9 @@
 .slider-h2 {
     color: #212121;
     font-size: 62px;
-    font-weight: 100;
+    font-weight:200;
     text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .slider-content {
