@@ -51,7 +51,7 @@
 
 .menu-link:hover {
     color: #212121;
-    box-shadow: 0px 1px 1px  rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.35);
     border-radius: 8%;
 }
 
@@ -134,6 +134,149 @@
 }
 
 .padding-site {
-    padding-left: 98px;
-    padding-right: 98px;
+    padding-left: 97px;
+    padding-right: 96px;
+}
+
+.featured-products {
+    margin: 120px 0px;
+    min-height: 370px;
+    position: relative;
+}
+
+.tab-control {
+    min-height: 40px;
+    max-width: 301px;
+}
+
+.tab-control-link {
+    color: #6C6C6C;
+    font-size: 36px;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 50px;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 1px solid #212121;
+}
+
+.tab-control-link:first-child {
+    width: 187px;
+}
+
+.tab-control-link:last-child {
+    width: 113px;
+}
+
+.tab-control-link-active {
+    border-bottom: 3px solid #212121;
+    color: #212121;
+}
+
+.tab-control-link:hover {
+    color: #080052;
+}
+
+
+.btn-ghost {
+    min-height: 14px;
+    max-width: 179px;
+    position: absolute;
+    top: 17px;
+    right: 97px;
+}
+
+.btn-ghost-text {
+    width: 158px;
+    height: 13px;
+    color: #575656;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.btn-ghost-text:hover {
+    color: #080052;
+}
+
+.btn-ghost-arrow {
+    width: 10px;
+    height: 13px;
+    margin-left: 11px;
+    margin-bottom: 2.5px;
+}
+
+.tab-content {
+    height: 270px;
+    width: 1170px;
+    padding-top: 49px;
+}
+
+.hover-block {
+    width: 270px;
+    height: 270px;
+    display: inline-block;
+    position: relative;
+}
+
+.hover-block:hover .hover-layer {
+    display: initial;
+}
+
+.hover-block:nth-child(-n+3) {
+    margin-right: 24px;
+}
+
+.hover-layer {
+    position: absolute;
+    width: 270;
+    height: 270;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    outline: 3px solid grey;
+    display: none;
+}
+
+.hover-layer-button {
+    width: 48px;
+    height: 48px;
+    margin: 62px 111px 19px;
+}
+
+.hoverbutton {
+    background-color: #ffffff;
+    width: 48px;
+    height: 48px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    display: inline-block;
+}
+
+.hoverbutton:hover {
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.35);
+}
+
+.hover-layer-button-image {
+    margin: 14px 19px;
+}
+
+.hover-layer-header {
+    height: 17px;
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+
+.hover-layer-text {
+    width: 206px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-left: 32px;
 }
