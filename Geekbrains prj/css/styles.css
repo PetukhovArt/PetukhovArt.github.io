@@ -1,5 +1,7 @@
 ﻿body {
     font-family: 'Montserrat', sans-serif;
+    width: 1366px;
+    margin: 0 auto;
 }
 
 .clearfix:after {
@@ -9,17 +11,12 @@
     /*обнуление для блоков*/
 }
 
-.container {
-    max-width: 1366px;
-    margin: 0 auto;
-}
 
 .slider {
-    min-height: 800px;
+    height: 800px;
     padding-left: 98px;
     padding-right: 98px;
     background-image: url(../img/slider-img@1X.png);
-    background-size: cover;
     position: relative;
 }
 
