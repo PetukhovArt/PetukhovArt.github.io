@@ -515,7 +515,6 @@
 
 .useful-info {
     float: left;
-    display: inline-block;
     list-style: none;
     letter-spacing: 2px;
 }
@@ -529,6 +528,10 @@
     line-height: 26px;
     text-transform: uppercase;
     letter-spacing: 0.3px;
+}
+
+.useful-info-list a:hover {
+    color: rgb(255, 81, 0);
 }
 
 .useful-info2 {
@@ -628,7 +631,7 @@
 }
 
 .fa {
-    padding: 2px;
+    padding: 3px;
     font-size: 18px;
     width: 22px;
     text-align: center;
